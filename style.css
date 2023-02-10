@@ -250,13 +250,18 @@ h2 {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     padding: 30px;
     box-shadow: 2px 3px 5px rgb(177, 177, 177);
 }
 
 h4 {
     font-size: 15px;
+    padding-top: 10px;
+}
+
+.div-message + .div-message {
+    border-top: 1px solid rgb(194, 194, 194);
 }
 
 .announcements-div p {
